@@ -87,9 +87,15 @@ nav {
   }
 
   section aside p {
+    display: flex;
     font-family: "Avenir Next", Arial;
     font-size: 1.5em;
     margin-right: 15px;
+  }
+
+  section aside p img {
+    width: 50px;
+    height: 50px;
   }
 
   section aside div {
@@ -97,11 +103,17 @@ nav {
   }
 
   #mapid {
+    display: flex;
     width: 800px;
     height: 500px;
     border: 2px #ff5200 solid;
     flex: 3;
     margin: 15px 15px 15px 15px;
+  }
+
+  article img {
+    width: 800px;
+    height: 500px;
   }
 
 .button {
